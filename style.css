@@ -7,6 +7,7 @@ body {
     color: #54585C;
     max-width: 750px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 
 }
 
@@ -34,7 +35,7 @@ body {
     color: #FFFFFF;
 }
 
-.dateofgame {
+.dateOfGame {
     font-size: 18px;
     background-color: #F6F6F6;
     padding: 15px 15px;
@@ -92,5 +93,20 @@ body {
 }
 .gameinfo{
     flex-grow: 1;
-    
+
+}
+.timeofgame{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.time{
+    font-weight: bold;
+
+}
+.hasBorder{
+    border-bottom: 2px solid #D3D7DB;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+
 }
