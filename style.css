@@ -1,0 +1,96 @@
+html{
+    background-color: #DEDEDE;
+
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #54585C;
+    max-width: 750px;
+    margin: 0 auto;
+
+}
+
+.rounds {
+    color: #555555;
+    padding: 20px 0px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #D1D2D2
+}
+
+.rounds li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #09295B;
+    color: #FFFFFF;
+}
+
+.dateofgame {
+    font-size: 18px;
+    background-color: #F6F6F6;
+    padding: 15px 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: space-between;
+    padding: 37px 0;
+}
+
+.logo{
+    width: 75px;
+    
+
+}
+.gamemetadata {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1 auto;
+
+    
+}
+
+.eta {
+    color: #000000;
+
+}
+
+.logobox{
+    width: 160px;
+    text-align: center;
+
+}
+
+.position{
+    font-size: 25px;
+    font-weight: bold;
+    color: #84888C;
+
+}
+.eta{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:  22px;
+    width: 170px;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.gameinfo{
+    flex-grow: 1;
+    
+}
