@@ -20,6 +20,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/afl_toyota_logo.png": {
+		"ft": 32768,
+		"iS": 23622,
+		"oA": 0,
+		"oAP": "\/images\/afl_toyota_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/brisbane_logo.jpg": {
 		"ft": 16384,
 		"iS": 27156,
@@ -129,6 +140,27 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/livepass_telstra_logo.png": {
+		"ft": 32768,
+		"iS": 11049,
+		"oA": 0,
+		"oAP": "\/images\/livepass_telstra_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/maccas_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/maccas_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/melbourne_logo.jpg": {
 		"ft": 16384,

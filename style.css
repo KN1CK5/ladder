@@ -10,11 +10,38 @@ body {
     background-color: #FFFFFF;
 
 }
+.pageheader{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #09295B;
+    color: #FFFFFF;
+    padding: 10px 20px;
+
+
+}
+.headerInfo{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.season{
+    color: #A4B4C5;
+    font-size: 15px;
+
+
+}
+
+.headerLogo{
+    height: 60px;
+
+}
 
 .rounds {
     color: #555555;
-    padding: 20px 0px;
-    font-size: 20px;
+    padding: 20px 8px;
+    font-size: 17px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-evenly;
@@ -48,6 +75,9 @@ body {
     width: 100%;
     justify-content: space-between;
     padding: 37px 0;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+    
 }
 
 .logo{
@@ -59,7 +89,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1 auto;
+    
 
     
 }
@@ -106,7 +136,14 @@ body {
 }
 .hasBorder{
     border-bottom: 2px solid #D3D7DB;
-    margin: 0 10px;
-    width: calc(100% - 20px);
-
+    
+}
+.maccas{
+    background-color: #C1001C;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.maccaslogo{
+    height: 7.5%;
 }
