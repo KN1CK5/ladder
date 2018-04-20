@@ -1,15 +1,15 @@
 html{
     background-color: #DEDEDE;
-
 }
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #54585C;
     max-width: 750px;
     margin: 0 auto;
     background-color: #FFFFFF;
-
 }
+
 .pageheader{
     display: flex;
     justify-content: space-between;
@@ -17,25 +17,23 @@ body {
     background-color: #09295B;
     color: #FFFFFF;
     padding: 10px 20px;
-
-
 }
+
 .headerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-weight: bold;
     font-size: 20px;
-
 }
 
 .season{
     color: #A4B4C5;
     font-size: 15px;
-
-
 }
 
 .headerLogo{
     height: 60px;
-
 }
 
 .rounds {
@@ -76,41 +74,33 @@ body {
     justify-content: space-between;
     padding: 37px 0;
     margin: 0 10px;
-    width: calc(100% - 20px);
-    
+    width: calc(100% - 20px);    
 }
 
 .logo{
     width: 75px;
-    
-
 }
 .gamemetadata {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-
-    
+    justify-content: space-between;       
 }
 
 .eta {
     color: #000000;
-
 }
 
 .logobox{
     width: 160px;
     text-align: center;
-
 }
 
 .position{
     font-size: 25px;
     font-weight: bold;
     color: #84888C;
-
 }
+
 .eta{
     background-color: #F6F6F6;
     border-radius: 10px;
@@ -119,31 +109,91 @@ body {
     width: 170px;
     text-align: center;
     padding: 5px 0;
-
 }
+
 .gameinfo{
     flex-grow: 1;
-
 }
+
 .timeofgame{
     margin-top: 20px;
     text-align: center;
-
 }
+
 .time{
     font-weight: bold;
+}
 
-}
 .hasBorder{
-    border-bottom: 2px solid #D3D7DB;
-    
+    border-bottom: 2px solid #D3D7DB;    
 }
+
 .maccas{
     background-color: #C1001C;
     text-align: center;
-    padding: 10px 0;
-    
+    padding: 10px 0;    
 }
+
 .maccaslogo{
     height: 7.5%;
+}
+
+.tabsBox{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 2px solid #D3D7DB;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #757D84;
+
+
+
+}
+
+.tab{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tabIcons{
+    width: 65px;
+}
+
+.blueBox{
+    display: flex;
+    background-color: #005098;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 8%;
+    align-items: center;
+    width: 75%;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+
+}
+
+.boxIcon{
+    width: 35px;
+    height: 35px;
+}
+.myTeam{
+    display: flex;
+    text-align: center;
+    width: 281.25px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.filters{
+    display: flex;
+    border-left: 2px solid #5085B8;
+    text-align: center;
+    width: 281.25px;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
