@@ -139,6 +139,7 @@ body {
 }
 
 .tabsBox{
+    position: fixed;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -147,8 +148,10 @@ body {
     padding-bottom: 15px;
     font-size: 20px;
     color: #757D84;
-
-
+    width: 750px;
+    z-index: 2;
+    bottom: 0%;
+    background-color: #FFFFFF;
 
 }
 
@@ -167,13 +170,22 @@ body {
     background-color: #005098;
     color: #FFFFFF;
     border-radius: 10px;
-    height: 8%;
+    height: 10%;
     align-items: center;
-    width: 75%;
-    position: absolute;
+    width: 56%;
+    left: 22%;
+    position: fixed;
     z-index: 100;
-    bottom: 0;
+    bottom: 18%;
 
+}
+
+.span{
+    font-size: 22px;
+    text-decoration: underline #FFFFFF;
+    width: 55%;
+    text-align: left;
+    
 }
 
 .boxIcon{
@@ -183,17 +195,27 @@ body {
 .myTeam{
     display: flex;
     text-align: center;
-    width: 281.25px;
+    width: 50%;
+    border-right: 1px solid #5085B8;
     align-items: center;
     justify-content: space-evenly;
 
 }
 .filters{
     display: flex;
-    border-left: 2px solid #5085B8;
+    border-left: 1px solid #5085B8;
     text-align: center;
-    width: 281.25px;
+    width: 50%;
     align-items: center;
     justify-content: space-evenly;
 
+}
+.boxIconDiv{
+    width: 25%;
+    text-align: center;
+
+}
+
+#lastGame{
+    padding-bottom: 20%;
 }
