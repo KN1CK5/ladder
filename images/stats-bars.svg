@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32" height="32"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
-<title>stats-bars</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="27" height="27">
+    <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" class="" style=""/>
+    <title>stats-bars</title>
 
-<g class="currentLayer" style=""><title>Layer 1</title><path d="M0 26h32v4h-32zM4 18h4v6h-4zM10 10h4v14h-4zM16 16h4v8h-4zM22 4h4v20h-4z" id="svg_1" class="" stroke-opacity="1" stroke="#757d84" fill-opacity="1" fill="#757d84"/></g></svg>
+    <g class="currentLayer" style=""><title>Layer 1</title>
+        <path d="M1.51260507106781,21.65487704720087 h23.84885151776075 v3.7233466199780727 h-23.84885151776075 zM4.493711510787904,14.208183807244724 h2.9811064397200937 v5.585019929967109 h-2.9811064397200937 zM8.965371170368044,6.761490567288581 h2.9811064397200937 v13.031713169923252 h-2.9811064397200937 zM13.437030829948185,12.346510497255688 h2.9811064397200937 v7.446693239956144 h-2.9811064397200937 zM17.908690489528325,1.176470637321472 h2.9811064397200937 v18.61673309989036 h-2.9811064397200937 z" id="svg_1" class="" stroke-opacity="1" stroke="#757d84" fill-opacity="1" fill="#757d84"/>
+    </g>
+</svg>
