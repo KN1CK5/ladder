@@ -105,7 +105,7 @@ body {
 
 }
 
-.container {
+.gameContainer {
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
@@ -158,7 +158,7 @@ body {
 
 }
 
-.gameinfo{
+.gameInfo{
     flex-grow: 1;
 }
 
@@ -317,9 +317,9 @@ body {
 }
 
 .tab a:hover .svgChange * {
-    stroke: red;
+    stroke: #000000;
 }
 
 .tab .stats:hover .svgChange * {
-    fill: red;
+    fill: #000000;
 }
