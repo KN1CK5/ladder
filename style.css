@@ -5,19 +5,19 @@ html {
 @font-face {
   font-family: "Titillium Upright";
   src: url("fonts/titillium-regularupright-webfont.woff") format("woff");
-  font-weight: bold;
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "Titillium Upright";
   src: url("fonts/titillium-boldupright-webfont.woff") format("woff");
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "Titillium Upright";
   src: url("fonts/titillium-semiboldupright-webfont.woff") format("woff");
-  font-weight: normal;
+  font-weight: 500;
 }
 
 body {
@@ -120,7 +120,7 @@ body {
 }
 
 .logo {
-  width: 4.6em;
+  width: 6em;
 }
 
 .gameMetadata {
@@ -152,7 +152,7 @@ body {
   font-size: 1.3em;
   width: 8em;
   text-align: center;
-  padding: 0.35em 0;
+  padding: 0.35em;
 }
 
 .finishedGame {
@@ -160,7 +160,7 @@ body {
   color: #ffffff;
   font-size: 1em;
   letter-spacing: 0.5px;
-  padding: 0.4em;
+  padding: 0.5em 0;
 }
 
 .gameInfo {
@@ -181,7 +181,8 @@ body {
 }
 
 .maccaslogo {
-  height: 7.5%;
+  height: 5.5%;
+  padding-left: 1.5em;
 }
 
 .tabsBox {
@@ -261,10 +262,6 @@ body {
   text-align: center;
 }
 
-#lastGame {
-  padding-bottom: 20%;
-}
-
 .maccaslogo {
   max-width: 27em;
 }
@@ -276,6 +273,7 @@ body {
 
 .spanBlue a {
   color: inherit;
+  letter-spacing: 2px;
 }
 
 .tab a {
@@ -318,15 +316,15 @@ body {
 
 .totalScore {
   color: #000000;
-  font-size: 2.3em;
-  font-weight: normal;
+  font-size: 2.7em;
+  font-weight: 700;
   padding-bottom: 0.3em;
 }
 
 .breakdownScore {
   color: #54585c;
-  font-size: 1.3em;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -343,4 +341,20 @@ body {
   font-weight: normal;
   padding-top: 0.6em;
   letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.lastGame {
+  padding-bottom: 8.1em;
+}
+
+.greyScore {
+  color: #54585c;
+  font-size: 2.7em;
+  font-weight: 700;
+  padding-bottom: 0.3em;
+}
+
+.insideTeam {
+  color: #54585c;
 }

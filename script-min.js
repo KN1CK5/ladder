@@ -76,7 +76,13 @@ data.fixtures.forEach(game => {
 
   borderDate.push(game.match.startDateTimes[getZone].date);
 
-  if (count >= 1 && borderDate[count] === borderDate[count - 1]) {
+  if (
+    count >= 1 &&
+    borderDate[count] === borderDate[count - 1] &&
+    count === data.fixtures.length - 1
+  ) {
+    gameBox.className = "gameContainer hasBorder lastGame";
+  } else if (count >= 1 && borderDate[count] === borderDate[count - 1]) {
     gameBox.className = "gameContainer hasBorder";
   } else {
     gameBox.className = "gameContainer";
@@ -89,7 +95,9 @@ data.fixtures.forEach(game => {
   //creating homeTeam img
   const homeLogo = document.createElement("img");
   homeLogo.className = "logo";
-  homeLogo.src = `images/${game.homeTeam.teamName}_logo.jpg`.toLowerCase();
+  homeLogo.src = `images/logos/${
+    game.homeTeam.teamName
+  }_logo.svg`.toLowerCase();
 
   //locating homeTeam img within homeTeam div
   homeLogoBox.appendChild(homeLogo);
@@ -118,7 +126,9 @@ data.fixtures.forEach(game => {
   //creating awayTeam img
   const awayLogo = document.createElement("img");
   awayLogo.className = "logo";
-  awayLogo.src = `images/${game.awayTeam.teamName}_logo.jpg`.toLowerCase();
+  awayLogo.src = `images/logos/${
+    game.awayTeam.teamName
+  }_logo.svg`.toLowerCase();
 
   //locating awayTeam img within awayTeam div
   awayLogoBox.appendChild(awayLogo);
@@ -133,7 +143,6 @@ data.fixtures.forEach(game => {
 
     //create homeTotal span
     const homeTotal = document.createElement("span");
-    homeTotal.className = "totalScore";
     homeTotal.textContent = `${game.homeTeam.totalScore}`;
 
     //create homeBreakdown span
@@ -157,8 +166,7 @@ data.fixtures.forEach(game => {
     awayScore.className = "scoreDiv";
 
     //create awayTotal span
-    const awayTotal = document.createElement("div");
-    awayTotal.className = "totalScore";
+    const awayTotal = document.createElement("span");
     awayTotal.textContent = `${game.awayTeam.totalScore}`;
 
     //create awayBreakdown span
@@ -169,19 +177,50 @@ data.fixtures.forEach(game => {
     }`;
 
     //create result span
-    const result = document.createElement("span");
-    result.className = "resultInfo";
-    result.textContent = `${game.match.matchResultText}`;
+    const resultBox = document.createElement("div");
+    resultBox.className = "resultInfo";
+    const teamInside = document.createElement("span");
+    teamInside.className = "insideTeam";
+    const resultInside = document.createElement("span");
+    resultInside.className = "insideResult drawn";
+
+    let homeTeamSize = game.homeTeam.teamNickname.length;
+    let awayTeamSize = game.homeTeam.teamNickname.length;
+
+    if (game.homeTeam.totalScore > game.awayTeam.totalScore) {
+      teamInside.textContent = game.homeTeam.teamNickname;
+      resultInside.textContent =
+        " by " + (game.homeTeam.totalScore - game.awayTeam.totalScore);
+    } else if (game.homeTeam.totalScore === game.awayTeam.totalScore) {
+      resultInside.textContent = "Match Drawn";
+    } else {
+      teamInside.textContent = game.awayTeam.teamNickname;
+      resultInside.textContent =
+        " by " + (game.awayTeam.totalScore - game.homeTeam.totalScore);
+    }
+
+    if (game.homeTeam.totalScore >= game.awayTeam.totalScore) {
+      homeTotal.className = "totalScore";
+    } else {
+      homeTotal.className = "greyScore";
+    }
+
+    if (game.awayTeam.totalScore >= game.homeTeam.totalScore) {
+      awayTotal.className = "totalScore";
+    } else {
+      awayTotal.className = "greyScore";
+    }
 
     //locating elements
-
     gameMetadataBox.appendChild(homeScore);
     gameMetadataBox.appendChild(gameOverBox);
     gameMetadataBox.appendChild(awayScore);
     homeScore.appendChild(homeTotal);
     homeScore.appendChild(homeBreakdown);
     gameOverBox.appendChild(gameOver);
-    gameOverBox.appendChild(result);
+    gameOverBox.appendChild(resultBox);
+    resultBox.appendChild(teamInside);
+    resultBox.appendChild(resultInside);
     awayScore.appendChild(awayTotal);
     awayScore.appendChild(awayBreakdown);
   } else {
