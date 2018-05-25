@@ -1,170 +1,235 @@
-data.fixtures.forEach((game) => {
-    console.log(game);
+//set time to find zone
+const myTime = new Date().toString();
+timeZone = myTime.slice(35, 39);
+let getZone = 0;
 
-    //set time to find zone
-    const timeZone = new Date();
-    
-    console.log(timeZone);
+if (timeZone === "AEST") {
+  getZone = 1;
+} else if (timeZone === "ACST") {
+  getZone = 2;
+} else {
+  getZone = 3;
+}
 
+let globalDate = undefined;
+let borderDate = [];
+var count = -1;
 
-    //set current date and game date in milliseconds
-     const todayInMilliseconds = new Date().getTime();
-     const gameTimeInMilliseconds = new Date(game.match.startDateTimes[1].date).getTime();
-     const differenceInMilliseconds = gameTimeInMilliseconds - todayInMilliseconds;
-     
-    //function to convert milliseconds to days
-     const convertMillisecondsToDays = (milliseconds) => {
-         return milliseconds / (1000 * 60 * 60 * 24);
-     }
- 
-    const differenceInDays = convertMillisecondsToDays(differenceInMilliseconds);
-    
-    //creating gameContainer div
-    const gameBox = document.createElement('div');
-    gameBox.className = 'gameContainer';
+data.fixtures.forEach(game => {
+  console.log(game);
 
-    //creating homeTeam div
-    const homeLogoBox = document.createElement('div');
-    homeLogoBox.className = 'logobox';
-    
-    //creating homeTeam img
-    const homeLogo = document.createElement('img');
-    homeLogo.className = 'logo';
-    homeLogo.src = `images/${game.homeTeam.teamName}_logo.jpg`.toLowerCase();
-       
-    //locating homeTeam img within homeTeam div
-    homeLogoBox.appendChild(homeLogo);
-       
-    //locating homeTeam div within gameContainer
-    gameBox.appendChild(homeLogoBox);
+  const currentGameDateInMilliseconds = new Date(
+    `${game.match.startDateTimes[0].date} ${game.match.startDateTimes[0].name}`
+  ).getTime();
 
-    //creating gameInfo div
-    const gameInfoBox = document.createElement('div');
-    gameInfoBox.className = 'gameInfo';
-    
-    //locating gameInfo div within gameContainer
-    gameBox.appendChild(gameInfoBox);
-        
-    //creating gameMetadata div
-    const gameMetadataBox = document.createElement('div');
-    gameMetadataBox.className = 'gameMetadata';
-    
-    //locating gameMetadataBox within gameInfo div
-    gameInfoBox.appendChild(gameMetadataBox);
+  if (
+    globalDate === undefined ||
+    globalDate !== currentGameDateInMilliseconds
+  ) {
+    const dateOfGameBox = document.createElement("div");
+    dateOfGameBox.className = "dateOfGame";
+    let dateGame = new Date(game.match.startDateTimes[0].date);
 
-    if (differenceInDays < 0) {
+    const day = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Sat"];
+    const month = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ];
 
-        const homeScore = document.createElement('div');
-        homeScore.className = 'scoreDiv';
-        gameMetadataBox.appendChild(homeScore);
+    dateOfGameBox.innerText = `${
+      day[dateGame.getDay()]
+    }day, ${dateGame.getDate()} ${
+      month[dateGame.getMonth()]
+    } ${dateGame.getFullYear()}`;
+    document.getElementById("games").appendChild(dateOfGameBox);
+    globalDate = currentGameDateInMilliseconds;
+  }
 
-        const homeTotal = document.createElement('span');
-        homeTotal.className = 'totalScore';
-        homeTotal.textContent = `${game.homeTeam.totalScore}`;
-        homeScore.appendChild(homeTotal);
+  //set current date and game date in milliseconds
+  const todayInMilliseconds = new Date().getTime();
+  const gameTimeInMilliseconds = new Date(
+    game.match.startDateTimes[getZone].date
+  ).getTime();
+  const differenceInMilliseconds = gameTimeInMilliseconds - todayInMilliseconds;
 
-        const homeBreakdown = document.createElement('span');
-        homeBreakdown.className = 'breakdownScore';
-        homeBreakdown.textContent = `${game.homeTeam.goals}.${game.homeTeam.behinds}`;
-        homeScore.appendChild(homeBreakdown);
+  //function to convert milliseconds to days
+  const convertMillisecondsToDays = milliseconds => {
+    return milliseconds / (1000 * 60 * 60 * 24);
+  };
 
-        const gameOver = document.createElement('span');
-        gameOver.className = 'finishedGame';
-        gameOver.textContent = 'Full Time';
-        gameMetadataBox.appendChild(gameOver);
+  const differenceInDays = convertMillisecondsToDays(differenceInMilliseconds);
 
-        const awayScore = document.createElement('div');
-        awayScore.className = 'scoreDiv';
-        gameMetadataBox.appendChild(awayScore);
+  //creating gameContainer div
+  const gameBox = document.createElement("div");
 
-        const awayTotal = document.createElement('div');
-        awayTotal.className = 'totalScore';
-        awayTotal.textContent = `${game.awayTeam.totalScore}`;
-        awayScore.appendChild(awayTotal);
+  count = count + 1;
 
-        const awayBreakdown = document.createElement('div');
-        awayBreakdown.className = 'breakdownScore';
-        awayBreakdown.textContent = `${game.awayTeam.goals}.${game.awayTeam.behinds}`;
-        awayScore.appendChild(awayBreakdown);
+  borderDate.push(game.match.startDateTimes[getZone].date);
 
-        const resultDiv = document.createElement('div');
-        resultDiv.className = 'gameResult';
-        gameInfoBox.appendChild(resultDiv);
+  if (count >= 1 && borderDate[count] === borderDate[count - 1]) {
+    gameBox.className = "gameContainer hasBorder";
+  } else {
+    gameBox.className = "gameContainer";
+  }
 
-        const result = document.createElement('span');
-        result.className = 'resultInfo';
-        result.textContent = `${game.match.matchResultText}`;
-        resultDiv.appendChild(result);
+  //creating homeTeam div
+  const homeLogoBox = document.createElement("div");
+  homeLogoBox.className = "logobox";
 
-    } else {
+  //creating homeTeam img
+  const homeLogo = document.createElement("img");
+  homeLogo.className = "logo";
+  homeLogo.src = `images/${game.homeTeam.teamName}_logo.jpg`.toLowerCase();
 
-        //creating homePosition span
-        const homePosition = document.createElement('span');
-        homePosition.className = 'position';
-        homePosition.textContent = `${game.homeTeam.ladderPositionText}`;
+  //locating homeTeam img within homeTeam div
+  homeLogoBox.appendChild(homeLogo);
 
-        //locating homePosition span within gameMetadataBox div
-        gameMetadataBox.appendChild(homePosition);
-    
-        //creating eta h3
-        const makeETA = document.createElement('h3');
-        makeETA.className = 'eta';
+  //locating homeTeam div within gameContainer
+  gameBox.appendChild(homeLogoBox);
 
-        //locating makeETA h3 within gameMetadataBox div
-        gameMetadataBox.appendChild(makeETA);
+  //creating gameInfo div
+  const gameInfoBox = document.createElement("div");
+  gameInfoBox.className = "gameInfo";
 
-        //creating awayPosition span
-        const awayPosition = document.createElement('span');
-        awayPosition.className = 'position';
-        awayPosition.textContent = `${game.awayTeam.ladderPositionText}`;
+  //locating gameInfo div within gameContainer
+  gameBox.appendChild(gameInfoBox);
 
-        //locating awayPosition span within gameMetadataBox div
-        gameMetadataBox.appendChild(awayPosition);
+  //creating gameMetadata div
+  const gameMetadataBox = document.createElement("div");
+  gameMetadataBox.className = "gameMetadata";
 
-        //creating time of game div
-        const timeAndPlaceBox = document.createElement('div');
-        timeAndPlaceBox.className = 'timePlaceBox';
-    
-        //creating time and place span
-        const timeAndPlace = document.createElement('span');
-        timeAndPlace.className = 'timePlace';
-        timeAndPlace.textContent = `${game.match.startDateTimes[1].time} my time, ${game.match.venueShortName}`;
+  //locating gameMetadataBox within gameInfo div
+  gameInfoBox.appendChild(gameMetadataBox);
 
-        //creating awayTeam div
-        const awayLogoBox = document.createElement('div');
-        awayLogoBox.className = 'logobox';
+  //creating awayTeam div
+  const awayLogoBox = document.createElement("div");
+  awayLogoBox.className = "logobox";
 
-        //creating awayTeam img
-        const awayLogo = document.createElement('img');
-        awayLogo.className = 'logo';
-        awayLogo.src = `images/${game.awayTeam.teamName}_logo.jpg`.toLowerCase();
-    
-        //locating awayTeam img within awayTeam div
-        awayLogoBox.appendChild(awayLogo);
-    
-        //locating awayTeam div within gameContainer
-        gameBox.appendChild(awayLogoBox);
+  //creating awayTeam img
+  const awayLogo = document.createElement("img");
+  awayLogo.className = "logo";
+  awayLogo.src = `images/${game.awayTeam.teamName}_logo.jpg`.toLowerCase();
 
-    }
-    
-    
+  //locating awayTeam img within awayTeam div
+  awayLogoBox.appendChild(awayLogo);
 
-    
+  //locating awayTeam div within gameContainer
+  gameBox.appendChild(awayLogoBox);
 
+  if (differenceInDays < 0) {
+    //create homeScore div
+    const homeScore = document.createElement("div");
+    homeScore.className = "scoreDiv";
 
+    //create homeTotal span
+    const homeTotal = document.createElement("span");
+    homeTotal.className = "totalScore";
+    homeTotal.textContent = `${game.homeTeam.totalScore}`;
 
+    //create homeBreakdown span
+    const homeBreakdown = document.createElement("span");
+    homeBreakdown.className = "breakdownScore";
+    homeBreakdown.textContent = `${game.homeTeam.goals}.${
+      game.homeTeam.behinds
+    }`;
 
+    //create gameOver div
+    const gameOverBox = document.createElement("div");
+    gameOverBox.className = "gameOverResult";
 
+    //create gameOver span
+    const gameOver = document.createElement("span");
+    gameOver.className = "finishedGame";
+    gameOver.textContent = "Full Time";
 
+    //create awayScore div
+    const awayScore = document.createElement("div");
+    awayScore.className = "scoreDiv";
 
-    /*const element = document.createElement('span');
+    //create awayTotal span
+    const awayTotal = document.createElement("div");
+    awayTotal.className = "totalScore";
+    awayTotal.textContent = `${game.awayTeam.totalScore}`;
+
+    //create awayBreakdown span
+    const awayBreakdown = document.createElement("span");
+    awayBreakdown.className = "breakdownScore";
+    awayBreakdown.textContent = `${game.awayTeam.goals}.${
+      game.awayTeam.behinds
+    }`;
+
+    //create result span
+    const result = document.createElement("span");
+    result.className = "resultInfo";
+    result.textContent = `${game.match.matchResultText}`;
+
+    //locating elements
+
+    gameMetadataBox.appendChild(homeScore);
+    gameMetadataBox.appendChild(gameOverBox);
+    gameMetadataBox.appendChild(awayScore);
+    homeScore.appendChild(homeTotal);
+    homeScore.appendChild(homeBreakdown);
+    gameOverBox.appendChild(gameOver);
+    gameOverBox.appendChild(result);
+    awayScore.appendChild(awayTotal);
+    awayScore.appendChild(awayBreakdown);
+  } else {
+    //creating homePosition span
+    const homePosition = document.createElement("span");
+    homePosition.className = "position";
+    homePosition.textContent = `${game.homeTeam.ladderPositionText}`;
+
+    //locating homePosition span within gameMetadataBox div
+    gameMetadataBox.appendChild(homePosition);
+
+    //creating eta h3
+    const makeETA = document.createElement("h3");
+    makeETA.className = "eta";
+    makeETA.textContent = `${Math.round(differenceInDays, -1)} DAYS`;
+
+    //locating makeETA h3 within gameMetadataBox div
+    gameMetadataBox.appendChild(makeETA);
+
+    //creating awayPosition span
+    const awayPosition = document.createElement("span");
+    awayPosition.className = "position";
+    awayPosition.textContent = `${game.awayTeam.ladderPositionText}`;
+
+    //locating awayPosition span within gameMetadataBox div
+    gameMetadataBox.appendChild(awayPosition);
+
+    //creating time of game div
+    const timeAndPlaceBox = document.createElement("div");
+    timeAndPlaceBox.className = "timePlaceBox";
+
+    //creating time and place span
+    const timeAndPlace = document.createElement("span");
+    timeAndPlace.className = "timePlace";
+    timeAndPlace.textContent = `${
+      game.match.startDateTimes[getZone].time
+    } my time, ${game.match.venueShortName}`;
+    timeAndPlaceBox.appendChild(timeAndPlace);
+  }
+
+  console.log(differenceInDays);
+
+  /*const element = document.createElement('span');
    
     TEXT CONTENT
 
     element.textContent = `${ladderPosition}`;*/
 
-
-    //locating container with games
-    document.getElementById('games').appendChild(gameBox);
+  //locating container with games
+  document.getElementById("games").appendChild(gameBox);
 });
-
