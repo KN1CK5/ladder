@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/api\/CD_R201801401.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801401-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801402.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801402-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/data-min.js": {
 		"ft": 64,
 		"ma": 0,
