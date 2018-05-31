@@ -80,17 +80,7 @@ const renderGames = data => {
 
     borderDate.push(game.match.startDateTimes[getZone].date);
 
-    if (
-      /* (
-    count >= 1 &&
-    borderDate[count] === borderDate[count - 1] &&
-    count === data.fixtures.length - 1 
-  ) {
-    gameBox.className = "gameContainer hasBorder lastGame";
-  } else if */ count >=
-        1 &&
-      borderDate[count] === borderDate[count - 1]
-    ) {
+    if (count >= 1 && borderDate[count] === borderDate[count - 1]) {
       gameBox.className = "gameContainer hasBorder";
     } else {
       gameBox.className = "gameContainer";

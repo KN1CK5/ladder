@@ -25,6 +25,174 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/api\/CD_R201801403.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801403-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801404.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801404-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801405.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801405-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801406.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801406-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801407.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801407-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801408.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801408-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801409.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801409-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801410.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801410-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801411.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801411-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801412.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801412-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801413.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801413-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801414.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801414-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801415.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801415-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801416.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801416-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801417.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801417-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801418.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801418-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801419.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801419-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801420.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801420-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801421.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801421-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801422.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801422-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801423.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801423-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/data-min.js": {
 		"ft": 64,
 		"ma": 0,
