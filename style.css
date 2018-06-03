@@ -223,7 +223,7 @@ body {
   position: fixed;
   z-index: 100;
   bottom: 8.5em;
-  transition: opacity 2s;
+  transition: opacity 450ms;
 }
 
 .spanBlue {

@@ -259,12 +259,6 @@ const renderGames = data => {
       timeAndPlaceBox.appendChild(timeAndPlace);
     }
 
-    /*const element = document.createElement('span');
-   
-    TEXT CONTENT
-
-    element.textContent = `${ladderPosition}`;*/
-
     //locating container with games
     document.getElementById("games").appendChild(gameBox);
   });
@@ -273,14 +267,31 @@ const renderGames = data => {
 renderGames(roundOne);
 
 function setActiveRound(element) {
-  console.log(element);
   document.querySelector("li.active").classList.remove("active");
   element.parentElement.classList.add("active");
 }
 
+let roundTag = undefined;
+
 function roundWipe(event) {
   document.getElementById("games").innerHTML = "Loading";
   setActiveRound(event.target);
+  let roundClicked = event.target.textContent;
+  console.log(roundClicked);
+  if (parseInt(roundClicked) < 10) {
+    roundTag = `0${roundClicked}`;
+  } else {
+    roundTag = roundClicked;
+  }
+  fetch(
+    `https://raw.githubusercontent.com/KN1CK5/ladder/javascript/api/CD_R2018014${roundTag}.json`
+  )
+    .then(response => response.json())
+    .then(aflObject => {
+      renderGames(aflObject);
+      console.log(aflObject);
+    });
+  console.log(event.target);
 }
 
 document.querySelectorAll(".roundClickHandler").forEach(element => {
