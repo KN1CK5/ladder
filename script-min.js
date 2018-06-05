@@ -31,7 +31,7 @@ const renderGames = data => {
       dateOfGameBox.className = "dateOfGame";
       let dateGame = new Date(game.match.startDateTimes[0].date);
 
-      const day = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Sat"];
+      const day = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"];
       const month = [
         "January",
         "February",
@@ -259,12 +259,27 @@ const renderGames = data => {
       timeAndPlaceBox.appendChild(timeAndPlace);
     }
 
-    //locating container with games
+    //locating container within games
     document.getElementById("games").appendChild(gameBox);
   });
-};
 
-renderGames(roundOne);
+  if (data.byes.length) {
+    const byesBox = document.createElement("div");
+    byesBox.className = "byeDiv";
+    byesBox.textContent = "BYES";
+    const byeLogosBox = document.createElement("div");
+    byeLogosBox.className = "byeLogoBox";
+    data.byes.forEach(bye => {
+      console.log(bye);
+      const byeLogo = document.createElement("img");
+      byeLogo.className = "logo";
+      byeLogo.src = `images/logos/${bye.teamName}_logo.svg`.toLowerCase();
+      byeLogosBox.appendChild(byeLogo);
+    });
+    document.getElementById("games").appendChild(byesBox);
+    document.getElementById("games").appendChild(byeLogosBox);
+  }
+};
 
 function setActiveRound(element) {
   document.querySelector("li.active").classList.remove("active");
@@ -273,29 +288,53 @@ function setActiveRound(element) {
 
 let roundTag = undefined;
 
-function roundWipe(event) {
-  document.getElementById("games").innerHTML = "Loading";
-  setActiveRound(event.target);
-  let roundClicked = event.target.textContent;
-  console.log(roundClicked);
-  if (parseInt(roundClicked) < 10) {
-    roundTag = `0${roundClicked}`;
+function roundWipe(roundNumber) {
+  document.getElementById(
+    "games"
+  ).innerHTML = `<!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
+  <svg class="loading" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#092A59">
+      <g fill="none" fill-rule="evenodd">
+          <g transform="translate(1 1)" stroke-width="2.5">
+              <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>
+              <path d="M36 18c0-9.94-8.06-18-18-18">
+                  <animateTransform
+                      attributeName="transform"
+                      type="rotate"
+                      from="0 18 18"
+                      to="360 18 18"
+                      dur="1.5s"
+                      repeatCount="indefinite"/>
+              </path>
+          </g>
+      </g>
+  </svg>`;
+
+  console.log(roundNumber);
+  if (parseInt(roundNumber) < 10) {
+    roundTag = `0${roundNumber}`;
   } else {
-    roundTag = roundClicked;
+    roundTag = roundNumber;
   }
   fetch(
     `https://raw.githubusercontent.com/KN1CK5/ladder/javascript/api/CD_R2018014${roundTag}.json`
   )
     .then(response => response.json())
     .then(aflObject => {
+      document.getElementById("games").innerHTML = "";
       renderGames(aflObject);
       console.log(aflObject);
     });
-  console.log(event.target);
+
+  // console.log(event.target);
 }
 
+roundWipe(1);
+
 document.querySelectorAll(".roundClickHandler").forEach(element => {
-  element.onclick = roundWipe;
+  element.onclick = event => {
+    setActiveRound(event.target);
+    roundWipe(event.target.textContent);
+  };
 });
 
 window.onscroll = () => {

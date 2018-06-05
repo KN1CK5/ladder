@@ -364,8 +364,16 @@ body {
 
 #games {
   padding-bottom: 6.8em;
+  transition: ease-in 2s;
 }
 
 .hidden {
   opacity: 0;
+}
+
+.loading {
+  width: 6em;
+  height: 6em;
+  margin-left: calc(50% - 3em);
+  margin-top: calc(30% - 3em);
 }
