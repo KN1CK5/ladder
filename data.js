@@ -1,4 +1,4 @@
-window.data = {
+window.roundOne = {
   seasonId: "CD_S2018014",
   byes: [],
   roundId: "CD_R201801401",

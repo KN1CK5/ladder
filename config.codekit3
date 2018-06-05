@@ -9,22 +9,237 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/api\/CD_R201801401.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801401-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801402.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801402-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801403.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801403-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801404.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801404-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801405.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801405-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801406.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801406-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801407.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801407-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801408.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801408-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801409.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801409-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801410.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801410-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801411.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801411-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801412.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801412-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801413.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801413-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801414.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801414-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801415.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801415-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801416.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801416-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801417.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801417-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801418.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801418-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801419.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801419-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801420.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801420-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801421.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801421-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801422.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801422-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/api\/CD_R201801423.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/api\/CD_R201801423-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/data-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/data-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/data.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/data-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
-	"\/images\/adelaide_logo.jpg": {
+	"\/fonts\/titillium-boldupright-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/titillium-boldupright-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/titillium-regularupright-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/titillium-regularupright-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/titillium-semiboldupright-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/titillium-semiboldupright-webfont.woff",
+		"oF": 0
+		},
+	"\/images\/adelaide crows_logo.jpg": {
 		"ft": 16384,
 		"iS": 60750,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/adelaide_logo.jpg",
+		"oAP": "\/images\/adelaide crows_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -41,12 +256,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/brisbane_logo.jpg": {
+	"\/images\/brisbane lions_logo.jpg": {
 		"ft": 16384,
 		"iS": 27156,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/brisbane_logo.jpg",
+		"oAP": "\/images\/brisbane lions_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -95,17 +310,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/footscray_logo.jpg": {
-		"ft": 16384,
-		"iS": 71338,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/footscray_logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/fremantle_logo.jpg": {
 		"ft": 16384,
 		"iS": 41380,
@@ -117,34 +321,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/geelong_logo.jpg": {
+	"\/images\/geelong cats_logo.jpg": {
 		"ft": 16384,
 		"iS": 61354,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/geelong_logo.jpg",
+		"oAP": "\/images\/geelong cats_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/goldcoast_logo.png": {
+	"\/images\/gold coast suns_logo.jpg": {
+		"ft": 16384,
+		"iS": 275613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/gold coast suns_logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gold coast suns_logo.png": {
 		"ft": 32768,
 		"iS": 109475,
 		"oA": 0,
-		"oAP": "\/images\/goldcoast_logo.png",
+		"oAP": "\/images\/gold coast suns_logo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/greaterwesternsydney_logo.jpg": {
+	"\/images\/gws giants_logo.jpg": {
 		"ft": 16384,
 		"iS": 20504,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/greaterwesternsydney_logo.jpg",
+		"oAP": "\/images\/gws giants_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -182,6 +397,196 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/adelaide crows_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/adelaide crows_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/brisbane lions_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/brisbane lions_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/carlton_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/carlton_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/collingwood_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/collingwood_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/essendon_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/essendon_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/fremantle_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/fremantle_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/geelong cats_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/geelong cats_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/gold coast suns_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/gold coast suns_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/gws giants_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/gws giants_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/hawthorn_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/hawthorn_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/logo-afl.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/logo-afl.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/melbourne_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/melbourne_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/north melbourne_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/north melbourne_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/port adelaide_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/port adelaide_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/richmond_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/richmond_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/st kilda_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/st kilda_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/sydney swans_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/sydney swans_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/west coast eagles_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/west coast eagles_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logos\/western bulldogs_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logos\/western bulldogs_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/maccas_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -213,12 +618,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/northmelbourne_logo.jpg": {
+	"\/images\/north melbourne_logo.jpg": {
 		"ft": 16384,
 		"iS": 63916,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/northmelbourne_logo.jpg",
+		"oAP": "\/images\/north melbourne_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -234,12 +639,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/portadelaide_logo.jpg": {
+	"\/images\/port adelaide_logo.jpg": {
 		"ft": 16384,
 		"iS": 166048,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/portadelaide_logo.jpg",
+		"oAP": "\/images\/port adelaide_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -276,6 +681,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/st kilda_logo.jpg": {
+		"ft": 16384,
+		"iS": 45835,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/st kilda_logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/stats-bars.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -286,34 +702,34 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/stkilda_logo.jpg": {
-		"ft": 16384,
-		"iS": 45835,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/stkilda_logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/sydney_logo.jpg": {
+	"\/images\/sydney swans_logo.jpg": {
 		"ft": 16384,
 		"iS": 66022,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/sydney_logo.jpg",
+		"oAP": "\/images\/sydney swans_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/westcoast_logo.jpg": {
+	"\/images\/west coast eagles_logo.jpg": {
 		"ft": 16384,
 		"iS": 70068,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/westcoast_logo.jpg",
+		"oAP": "\/images\/west coast eagles_logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/western bulldogs_logo.jpg": {
+		"ft": 16384,
+		"iS": 71338,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/western bulldogs_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -324,6 +740,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index_copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index_copy.html",
 		"oF": 0
 		},
 	"\/reset-min.css": {
@@ -349,21 +772,21 @@
 	"\/script-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/script-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/script.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/script-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/style-min.css": {
@@ -2210,8 +2633,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

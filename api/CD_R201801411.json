@@ -1,0 +1,448 @@
+{
+  "seasonId": "CD_S2018014",
+  "byes": [],
+  "roundId": "CD_R201801411",
+  "fixtures": [
+    {
+      "awayTeam": {
+        "teamName": "Carlton",
+        "ladderPositionOrdinal": "th",
+        "form": "LLLLLLLWLL",
+        "teamId": "CD_T30",
+        "teamNickname": "Blues",
+        "ladderPosition": 18,
+        "teamAbbr": "CARL",
+        "ladderPositionText": "18th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/syd-v-carl",
+        "venueAbbr": "SCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_SYDvCARL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "SCG",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "SCG",
+        "venueId": "CD_V60",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201890?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-01", "name": "utc", "time": "9:50 AM" },
+          { "date": "2018-06-01", "name": "aest", "time": "7:50 PM" },
+          { "date": "2018-06-01", "name": "acst", "time": "7:20 PM" },
+          { "date": "2018-06-01", "name": "awst", "time": "5:50 PM" },
+          { "date": "2018-06-01", "name": "venue", "time": "7:50 PM" }
+        ],
+        "matchId": "CD_M20180141101",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Sydney Swans",
+        "ladderPositionOrdinal": "th",
+        "form": "WLWWLWLWWW",
+        "teamId": "CD_T160",
+        "teamNickname": "Swans",
+        "ladderPosition": 4,
+        "teamAbbr": "SYD",
+        "ladderPositionText": "4th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Melbourne",
+        "ladderPositionOrdinal": "rd",
+        "form": "LWWLLWWWWW",
+        "teamId": "CD_T90",
+        "teamNickname": "Demons",
+        "ladderPosition": 3,
+        "teamAbbr": "MELB",
+        "ladderPositionText": "3rd"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/wb-v-melb",
+        "venueAbbr": "ES",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_WBvMELB",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Etihad Stadium",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Etihad",
+        "venueId": "CD_V190",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201891?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-02", "name": "utc", "time": "3:45 AM" },
+          { "date": "2018-06-02", "name": "aest", "time": "1:45 PM" },
+          { "date": "2018-06-02", "name": "acst", "time": "1:15 PM" },
+          { "date": "2018-06-02", "name": "awst", "time": "11:45 AM" },
+          { "date": "2018-06-02", "name": "venue", "time": "1:45 PM" }
+        ],
+        "matchId": "CD_M20180141102",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Western Bulldogs",
+        "ladderPositionOrdinal": "th",
+        "form": "LLWLLWWWLL",
+        "teamId": "CD_T140",
+        "teamNickname": "Bulldogs",
+        "ladderPosition": 14,
+        "teamAbbr": "WB",
+        "ladderPositionText": "14th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Port Adelaide",
+        "ladderPositionOrdinal": "th",
+        "form": "WWWLLWLWW",
+        "teamId": "CD_T110",
+        "teamNickname": "Power",
+        "ladderPosition": 9,
+        "teamAbbr": "PORT",
+        "ladderPositionText": "9th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/haw-v-port",
+        "venueAbbr": "US",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_HAWvPORT",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "University of Tasmania Stadium",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "UTAS Stadium",
+        "venueId": "CD_V200",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201892?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-02", "name": "utc", "time": "4:10 AM" },
+          { "date": "2018-06-02", "name": "aest", "time": "2:10 PM" },
+          { "date": "2018-06-02", "name": "acst", "time": "1:40 PM" },
+          { "date": "2018-06-02", "name": "awst", "time": "12:10 PM" },
+          { "date": "2018-06-02", "name": "venue", "time": "2:10 PM" }
+        ],
+        "matchId": "CD_M20180141103",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Hawthorn",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLWLWWLLL",
+        "teamId": "CD_T80",
+        "teamNickname": "Hawks",
+        "ladderPosition": 10,
+        "teamAbbr": "HAW",
+        "ladderPositionText": "10th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Geelong Cats",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLWWLWWLW",
+        "teamId": "CD_T70",
+        "teamNickname": "Cats",
+        "ladderPosition": 6,
+        "teamAbbr": "GEEL",
+        "ladderPositionText": "6th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/gcfc-v-geel",
+        "venueAbbr": "MS",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_GCFCvGEEL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Metricon Stadium",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Metricon",
+        "venueId": "CD_V81",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201893?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-02", "name": "utc", "time": "6:35 AM" },
+          { "date": "2018-06-02", "name": "aest", "time": "4:35 PM" },
+          { "date": "2018-06-02", "name": "acst", "time": "4:05 PM" },
+          { "date": "2018-06-02", "name": "awst", "time": "2:35 PM" },
+          { "date": "2018-06-02", "name": "venue", "time": "4:35 PM" }
+        ],
+        "matchId": "CD_M20180141104",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Gold Coast Suns",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLLWLLLL",
+        "teamId": "CD_T1000",
+        "teamNickname": "Suns",
+        "ladderPosition": 15,
+        "teamAbbr": "GCFC",
+        "ladderPositionText": "15th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Richmond",
+        "ladderPositionOrdinal": "nd",
+        "form": "WLWWWWWWLW",
+        "teamId": "CD_T120",
+        "teamNickname": "Tigers",
+        "ladderPosition": 2,
+        "teamAbbr": "RICH",
+        "ladderPositionText": "2nd"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/ess-v-rich",
+        "venueAbbr": "MCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_ESSvRICH",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "MCG",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "MCG",
+        "venueId": "CD_V40",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201895?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-02", "name": "utc", "time": "9:25 AM" },
+          { "date": "2018-06-02", "name": "aest", "time": "7:25 PM" },
+          { "date": "2018-06-02", "name": "acst", "time": "6:55 PM" },
+          { "date": "2018-06-02", "name": "awst", "time": "5:25 PM" },
+          { "date": "2018-06-02", "name": "venue", "time": "7:25 PM" }
+        ],
+        "matchId": "CD_M20180141105",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Essendon",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLWLLLLWW",
+        "teamId": "CD_T50",
+        "teamNickname": "Bombers",
+        "ladderPosition": 12,
+        "teamAbbr": "ESS",
+        "ladderPositionText": "12th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "St Kilda",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLLDLLLLL",
+        "teamId": "CD_T130",
+        "teamNickname": "Saints",
+        "ladderPosition": 16,
+        "teamAbbr": "STK",
+        "ladderPositionText": "16th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/wce-v-stk",
+        "venueAbbr": "OS",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_WCEvSTK",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Optus Stadium",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Optus Stadium",
+        "venueId": "CD_V2925",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201894?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-02", "name": "utc", "time": "10:10 AM" },
+          { "date": "2018-06-02", "name": "aest", "time": "8:10 PM" },
+          { "date": "2018-06-02", "name": "acst", "time": "7:40 PM" },
+          { "date": "2018-06-02", "name": "awst", "time": "6:10 PM" },
+          { "date": "2018-06-02", "name": "venue", "time": "6:10 PM" }
+        ],
+        "matchId": "CD_M20180141106",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "West Coast Eagles",
+        "ladderPositionOrdinal": "st",
+        "form": "LWWWWWWWWW",
+        "teamId": "CD_T150",
+        "teamNickname": "Eagles",
+        "ladderPosition": 1,
+        "teamAbbr": "WCE",
+        "ladderPositionText": "1st"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Brisbane Lions",
+        "ladderPositionOrdinal": "th",
+        "form": "LLLLLLLLWL",
+        "teamId": "CD_T20",
+        "teamNickname": "Lions",
+        "ladderPosition": 17,
+        "teamAbbr": "BL",
+        "ladderPositionText": "17th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/nmfc-v-bl",
+        "venueAbbr": "ES",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_NMFCvBL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Etihad Stadium",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Etihad",
+        "venueId": "CD_V190",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201898?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-03", "name": "utc", "time": "3:10 AM" },
+          { "date": "2018-06-03", "name": "aest", "time": "1:10 PM" },
+          { "date": "2018-06-03", "name": "acst", "time": "12:40 PM" },
+          { "date": "2018-06-03", "name": "awst", "time": "11:10 AM" },
+          { "date": "2018-06-03", "name": "venue", "time": "1:10 PM" }
+        ],
+        "matchId": "CD_M20180141107",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "North Melbourne",
+        "ladderPositionOrdinal": "th",
+        "form": "LWLWWLWLWW",
+        "teamId": "CD_T100",
+        "teamNickname": "Kangaroos",
+        "ladderPosition": 5,
+        "teamAbbr": "NMFC",
+        "ladderPositionText": "5th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Fremantle",
+        "ladderPositionOrdinal": "th",
+        "form": "LWWLWLLWLL",
+        "teamId": "CD_T60",
+        "teamNickname": "Freo",
+        "ladderPosition": 13,
+        "teamAbbr": "FRE",
+        "ladderPositionText": "13th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/coll-v-fre",
+        "venueAbbr": "MCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_COLLvFRE",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "MCG",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "MCG",
+        "venueId": "CD_V40",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201896?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-03", "name": "utc", "time": "5:20 AM" },
+          { "date": "2018-06-03", "name": "aest", "time": "3:20 PM" },
+          { "date": "2018-06-03", "name": "acst", "time": "2:50 PM" },
+          { "date": "2018-06-03", "name": "awst", "time": "1:20 PM" },
+          { "date": "2018-06-03", "name": "venue", "time": "3:20 PM" }
+        ],
+        "matchId": "CD_M20180141108",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Collingwood",
+        "ladderPositionOrdinal": "th",
+        "form": "LLWWWLWLWW",
+        "teamId": "CD_T40",
+        "teamNickname": "Magpies",
+        "ladderPosition": 8,
+        "teamAbbr": "COLL",
+        "ladderPositionText": "8th"
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "GWS Giants",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLWDWLLLL",
+        "teamId": "CD_T1010",
+        "teamNickname": "Giants",
+        "ladderPosition": 11,
+        "teamAbbr": "GWS",
+        "ladderPositionText": "11th"
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/11/adel-v-gws",
+        "venueAbbr": "AO",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r11_ADELvGWS",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Adelaide Oval",
+        "roundNumber": 11,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Adelaide Oval",
+        "venueId": "CD_V6",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201897?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-06-03", "name": "utc", "time": "6:40 AM" },
+          { "date": "2018-06-03", "name": "aest", "time": "4:40 PM" },
+          { "date": "2018-06-03", "name": "acst", "time": "4:10 PM" },
+          { "date": "2018-06-03", "name": "awst", "time": "2:40 PM" },
+          { "date": "2018-06-03", "name": "venue", "time": "4:10 PM" }
+        ],
+        "matchId": "CD_M20180141109",
+        "status": "SCHEDULED"
+      },
+      "homeTeam": {
+        "teamName": "Adelaide Crows",
+        "ladderPositionOrdinal": "th",
+        "form": "LWWLWWWLWL",
+        "teamId": "CD_T10",
+        "teamNickname": "Crows",
+        "ladderPosition": 7,
+        "teamAbbr": "ADEL",
+        "ladderPositionText": "7th"
+      }
+    }
+  ]
+}

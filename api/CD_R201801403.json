@@ -1,0 +1,511 @@
+{
+  "seasonId": "CD_S2018014",
+  "byes": [],
+  "roundId": "CD_R201801403",
+  "fixtures": [
+    {
+      "awayTeam": {
+        "teamName": "Collingwood",
+        "ladderPositionOrdinal": "th",
+        "form": "LLWWWLWLWW",
+        "teamId": "CD_T40",
+        "teamNickname": "Magpies",
+        "ladderPosition": 8,
+        "teamAbbr": "COLL",
+        "ladderPositionText": "8th",
+        "totalScore": 100,
+        "behinds": 4,
+        "goals": 16
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/carl-v-coll",
+        "matchResultText": "Magpies by 24",
+        "venueAbbr": "MCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_CARLvCOLL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "MCG",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "MCG",
+        "venueId": "CD_V40",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201819?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-06", "name": "utc", "time": "9:50 AM" },
+          { "date": "2018-04-06", "name": "aest", "time": "7:50 PM" },
+          { "date": "2018-04-06", "name": "acst", "time": "7:20 PM" },
+          { "date": "2018-04-06", "name": "awst", "time": "5:50 PM" },
+          { "date": "2018-04-06", "name": "venue", "time": "7:50 PM" }
+        ],
+        "matchId": "CD_M20180140301",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Carlton",
+        "ladderPositionOrdinal": "th",
+        "form": "LLLLLLLWLL",
+        "teamId": "CD_T30",
+        "teamNickname": "Blues",
+        "ladderPosition": 18,
+        "teamAbbr": "CARL",
+        "ladderPositionText": "18th",
+        "totalScore": 76,
+        "behinds": 10,
+        "goals": 11
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Brisbane Lions",
+        "ladderPositionOrdinal": "th",
+        "form": "LLLLLLLLWL",
+        "teamId": "CD_T20",
+        "teamNickname": "Lions",
+        "ladderPosition": 17,
+        "teamAbbr": "BL",
+        "ladderPositionText": "17th",
+        "totalScore": 92,
+        "behinds": 8,
+        "goals": 14
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/port-v-bl",
+        "matchResultText": "Power by 5",
+        "venueAbbr": "AO",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_PORTvBL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Adelaide Oval",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Adelaide Oval",
+        "venueId": "CD_V6",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201820?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-07", "name": "utc", "time": "3:45 AM" },
+          { "date": "2018-04-07", "name": "aest", "time": "1:45 PM" },
+          { "date": "2018-04-07", "name": "acst", "time": "1:15 PM" },
+          { "date": "2018-04-07", "name": "awst", "time": "11:45 AM" },
+          { "date": "2018-04-07", "name": "venue", "time": "1:15 PM" }
+        ],
+        "matchId": "CD_M20180140302",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Port Adelaide",
+        "ladderPositionOrdinal": "th",
+        "form": "WWWLLWLWW",
+        "teamId": "CD_T110",
+        "teamNickname": "Power",
+        "ladderPosition": 9,
+        "teamAbbr": "PORT",
+        "ladderPositionText": "9th",
+        "totalScore": 97,
+        "behinds": 13,
+        "goals": 14
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "North Melbourne",
+        "ladderPositionOrdinal": "th",
+        "form": "LWLWWLWLWW",
+        "teamId": "CD_T100",
+        "teamNickname": "Kangaroos",
+        "ladderPosition": 5,
+        "teamAbbr": "NMFC",
+        "ladderPositionText": "5th",
+        "totalScore": 86,
+        "behinds": 8,
+        "goals": 13
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/melb-v-nmfc",
+        "matchResultText": "Demons by 37",
+        "venueAbbr": "MCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_MELBvNMFC",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "MCG",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "MCG",
+        "venueId": "CD_V40",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201821?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-07", "name": "utc", "time": "4:10 AM" },
+          { "date": "2018-04-07", "name": "aest", "time": "2:10 PM" },
+          { "date": "2018-04-07", "name": "acst", "time": "1:40 PM" },
+          { "date": "2018-04-07", "name": "awst", "time": "12:10 PM" },
+          { "date": "2018-04-07", "name": "venue", "time": "2:10 PM" }
+        ],
+        "matchId": "CD_M20180140303",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Melbourne",
+        "ladderPositionOrdinal": "rd",
+        "form": "LWWLLWWWWW",
+        "teamId": "CD_T90",
+        "teamNickname": "Demons",
+        "ladderPosition": 3,
+        "teamAbbr": "MELB",
+        "ladderPositionText": "3rd",
+        "totalScore": 123,
+        "behinds": 15,
+        "goals": 18
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Fremantle",
+        "ladderPositionOrdinal": "th",
+        "form": "LWWLWLLWLL",
+        "teamId": "CD_T60",
+        "teamNickname": "Freo",
+        "ladderPosition": 13,
+        "teamAbbr": "FRE",
+        "ladderPositionText": "13th",
+        "totalScore": 96,
+        "behinds": 18,
+        "goals": 13
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/gcfc-v-fre",
+        "matchResultText": "Freo by 28",
+        "venueAbbr": "OS",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_GCFCvFRE",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Optus Stadium",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Optus Stadium",
+        "venueId": "CD_V2925",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201822?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-07", "name": "utc", "time": "6:35 AM" },
+          { "date": "2018-04-07", "name": "aest", "time": "4:35 PM" },
+          { "date": "2018-04-07", "name": "acst", "time": "4:05 PM" },
+          { "date": "2018-04-07", "name": "awst", "time": "2:35 PM" },
+          { "date": "2018-04-07", "name": "venue", "time": "2:35 PM" }
+        ],
+        "matchId": "CD_M20180140304",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Gold Coast Suns",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLLWLLLL",
+        "teamId": "CD_T1000",
+        "teamNickname": "Suns",
+        "ladderPosition": 15,
+        "teamAbbr": "GCFC",
+        "ladderPositionText": "15th",
+        "totalScore": 68,
+        "behinds": 8,
+        "goals": 10
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "GWS Giants",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLWDWLLLL",
+        "teamId": "CD_T1010",
+        "teamNickname": "Giants",
+        "ladderPosition": 11,
+        "teamAbbr": "GWS",
+        "ladderPositionText": "11th",
+        "totalScore": 87,
+        "behinds": 15,
+        "goals": 12
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/syd-v-gws",
+        "matchResultText": "Swans by 16",
+        "venueAbbr": "SCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_SYDvGWS",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "SCG",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "SCG",
+        "venueId": "CD_V60",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201823?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-07", "name": "utc", "time": "9:25 AM" },
+          { "date": "2018-04-07", "name": "aest", "time": "7:25 PM" },
+          { "date": "2018-04-07", "name": "acst", "time": "6:55 PM" },
+          { "date": "2018-04-07", "name": "awst", "time": "5:25 PM" },
+          { "date": "2018-04-07", "name": "venue", "time": "7:25 PM" }
+        ],
+        "matchId": "CD_M20180140305",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Sydney Swans",
+        "ladderPositionOrdinal": "th",
+        "form": "WLWWLWLWWW",
+        "teamId": "CD_T160",
+        "teamNickname": "Swans",
+        "ladderPosition": 4,
+        "teamAbbr": "SYD",
+        "ladderPositionText": "4th",
+        "totalScore": 103,
+        "behinds": 7,
+        "goals": 16
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Adelaide Crows",
+        "ladderPositionOrdinal": "th",
+        "form": "LWWLWWWLWL",
+        "teamId": "CD_T10",
+        "teamNickname": "Crows",
+        "ladderPosition": 7,
+        "teamAbbr": "ADEL",
+        "ladderPositionText": "7th",
+        "totalScore": 104,
+        "behinds": 14,
+        "goals": 15
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/stk-v-adel",
+        "matchResultText": "Crows by 49",
+        "venueAbbr": "ES",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_STKvADEL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Etihad Stadium",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Etihad",
+        "venueId": "CD_V190",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201824?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-07", "name": "utc", "time": "9:25 AM" },
+          { "date": "2018-04-07", "name": "aest", "time": "7:25 PM" },
+          { "date": "2018-04-07", "name": "acst", "time": "6:55 PM" },
+          { "date": "2018-04-07", "name": "awst", "time": "5:25 PM" },
+          { "date": "2018-04-07", "name": "venue", "time": "7:25 PM" }
+        ],
+        "matchId": "CD_M20180140306",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "St Kilda",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLLDLLLLL",
+        "teamId": "CD_T130",
+        "teamNickname": "Saints",
+        "ladderPosition": 16,
+        "teamAbbr": "STK",
+        "ladderPositionText": "16th",
+        "totalScore": 55,
+        "behinds": 13,
+        "goals": 7
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Hawthorn",
+        "ladderPositionOrdinal": "th",
+        "form": "WWLWLWWLLL",
+        "teamId": "CD_T80",
+        "teamNickname": "Hawks",
+        "ladderPosition": 10,
+        "teamAbbr": "HAW",
+        "ladderPositionText": "10th",
+        "totalScore": 89,
+        "behinds": 11,
+        "goals": 13
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/rich-v-haw",
+        "matchResultText": "Tigers by 13",
+        "venueAbbr": "MCG",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_RICHvHAW",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "MCG",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "MCG",
+        "venueId": "CD_V40",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201825?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-08", "name": "utc", "time": "3:10 AM" },
+          { "date": "2018-04-08", "name": "aest", "time": "1:10 PM" },
+          { "date": "2018-04-08", "name": "acst", "time": "12:40 PM" },
+          { "date": "2018-04-08", "name": "awst", "time": "11:10 AM" },
+          { "date": "2018-04-08", "name": "venue", "time": "1:10 PM" }
+        ],
+        "matchId": "CD_M20180140307",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Richmond",
+        "ladderPositionOrdinal": "nd",
+        "form": "WLWWWWWWLW",
+        "teamId": "CD_T120",
+        "teamNickname": "Tigers",
+        "ladderPosition": 2,
+        "teamAbbr": "RICH",
+        "ladderPositionText": "2nd",
+        "totalScore": 102,
+        "behinds": 12,
+        "goals": 15
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Essendon",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLWLLLLWW",
+        "teamId": "CD_T50",
+        "teamNickname": "Bombers",
+        "ladderPosition": 12,
+        "teamAbbr": "ESS",
+        "ladderPositionText": "12th",
+        "totalScore": 83,
+        "behinds": 11,
+        "goals": 12
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/wb-v-ess",
+        "matchResultText": "Bulldogs by 21",
+        "venueAbbr": "ES",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_WBvESS",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Etihad Stadium",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Etihad",
+        "venueId": "CD_V190",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201826?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-08", "name": "utc", "time": "5:20 AM" },
+          { "date": "2018-04-08", "name": "aest", "time": "3:20 PM" },
+          { "date": "2018-04-08", "name": "acst", "time": "2:50 PM" },
+          { "date": "2018-04-08", "name": "awst", "time": "1:20 PM" },
+          { "date": "2018-04-08", "name": "venue", "time": "3:20 PM" }
+        ],
+        "matchId": "CD_M20180140308",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "Western Bulldogs",
+        "ladderPositionOrdinal": "th",
+        "form": "LLWLLWWWLL",
+        "teamId": "CD_T140",
+        "teamNickname": "Bulldogs",
+        "ladderPosition": 14,
+        "teamAbbr": "WB",
+        "ladderPositionText": "14th",
+        "totalScore": 104,
+        "behinds": 20,
+        "goals": 14
+      }
+    },
+    {
+      "awayTeam": {
+        "teamName": "Geelong Cats",
+        "ladderPositionOrdinal": "th",
+        "form": "WLLWWLWWLW",
+        "teamId": "CD_T70",
+        "teamNickname": "Cats",
+        "ladderPosition": 6,
+        "teamAbbr": "GEEL",
+        "ladderPositionText": "6th",
+        "totalScore": 80,
+        "behinds": 14,
+        "goals": 11
+      },
+      "match": {
+        "competitionId": "CD_S2018014",
+        "matchCentreLink": "/match-centre/2018/3/wce-v-geel",
+        "matchResultText": "Eagles by 15",
+        "venueAbbr": "OS",
+        "matchReplayLink": "/livepass/match-replays/",
+        "matchBuyLink": "http://on.afl/2018_r3_WCEvGEEL",
+        "matchBettingLiveLink": "https://www.crownbet.com.au/sports/live",
+        "venueName": "Optus Stadium",
+        "roundNumber": 3,
+        "matchBettingLink":
+          "https://www.crownbet.com.au/sports/australian-rules/afl/afl-matches",
+        "venueShortName": "Optus Stadium",
+        "venueId": "CD_V2925",
+        "isBye": "false",
+        "broadcastGuideLink": "/tv-radio/broadcastguide",
+        "matchTravelLink":
+          "http://www.afltravel.com.au/201827?cmpid=2018aflfixture",
+        "startDateTimes": [
+          { "date": "2018-04-08", "name": "utc", "time": "6:40 AM" },
+          { "date": "2018-04-08", "name": "aest", "time": "4:40 PM" },
+          { "date": "2018-04-08", "name": "acst", "time": "4:10 PM" },
+          { "date": "2018-04-08", "name": "awst", "time": "2:40 PM" },
+          { "date": "2018-04-08", "name": "venue", "time": "2:40 PM" }
+        ],
+        "matchId": "CD_M20180140309",
+        "status": "Full Time"
+      },
+      "homeTeam": {
+        "teamName": "West Coast Eagles",
+        "ladderPositionOrdinal": "st",
+        "form": "LWWWWWWWWW",
+        "teamId": "CD_T150",
+        "teamNickname": "Eagles",
+        "ladderPosition": 1,
+        "teamAbbr": "WCE",
+        "ladderPositionText": "1st",
+        "totalScore": 95,
+        "behinds": 11,
+        "goals": 14
+      }
+    }
+  ]
+}
