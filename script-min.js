@@ -316,7 +316,7 @@ function roundWipe(roundNumber) {
     roundTag = roundNumber;
   }
   fetch(
-    `https://raw.githubusercontent.com/KN1CK5/ladder/javascript/api/CD_R2018014${roundTag}.json`
+    `https://raw.githubusercontent.com/KN1CK5/ladder/master/api/CD_R2018014${roundTag}.json`
   )
     .then(response => response.json())
     .then(aflObject => {
